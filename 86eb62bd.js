@@ -117,13 +117,13 @@ $(document).ready(function () {
 		updateStat();
 
 		if (left == 0 && size == 5){
-			alert("恭喜 Part 2 全部通关👏\n红包口令的第四个数字是：\n下一关的通关口令不在这里哦😜\n\nby Binary");
+			alert("恭喜 Part 2 全部通关👏\n红包口令的第四个数字是：7\n下一关的通关口令不在这里哦😜\n\nby Binary");
 			window.opener.location.href = window.opener.location.href;
 			window.close();
 
 		}
 		if (left == 0 && size == 4){
-			alert("恭喜通过本小关😁\n红包口令的第三个数字是：");
+			alert("恭喜通过本小关😁\n红包口令的第三个数字是：8");
 			size += 1
 			left = size * size;
 			step = 0;
@@ -136,7 +136,7 @@ $(document).ready(function () {
 			updateStat();
 			}
 		if (left == 0 && size == 3){
-			alert("恭喜通过本小关😁\n红包口令的第二个数字是：");
+			alert("恭喜通过本小关😁\n红包口令的第二个数字是：8");
 			size += 1;
 			left = size * size;
 			step = 0;
@@ -148,7 +148,7 @@ $(document).ready(function () {
 			mkBox($("#box"), size , size);
 			updateStat();}
 		if (left == 0 && size == 2){
-			alert("恭喜通过本小关😁\n红包口令的第一个数字是：");
+			alert("恭喜通过本小关😁\n红包口令的第一个数字是：7");
 			size += 1;
 			left = size * size;
 			step = 0;
